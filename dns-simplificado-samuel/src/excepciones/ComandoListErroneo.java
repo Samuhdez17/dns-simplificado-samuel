@@ -1,4 +1,4 @@
-package Ejercicios.E009DNS.excepciones;
+package excepciones;
 
 public class ComandoListErroneo extends RuntimeException {
     public ComandoListErroneo(String message) {

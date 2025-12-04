@@ -1,4 +1,4 @@
-package Ejercicios.E009DNS.excepciones;
+package excepciones;
 
 public class ResultadoNoEncontrado extends RuntimeException {
     public ResultadoNoEncontrado() {

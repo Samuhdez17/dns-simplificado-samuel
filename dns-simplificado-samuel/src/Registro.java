@@ -1,5 +1,3 @@
-package Ejercicios.E009DNS;
-
 public class Registro implements Comparable<Registro> {
     private final String dominio;
     private final String tipo;
