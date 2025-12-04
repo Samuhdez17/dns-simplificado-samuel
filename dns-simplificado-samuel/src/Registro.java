@@ -1,6 +1,6 @@
 package Ejercicios.E009DNS;
 
-public class Registro {
+public class Registro implements Comparable<Registro> {
     private final String dominio;
     private final String tipo;
     private final String valor;
@@ -26,5 +26,9 @@ public class Registro {
     @Override
     public String toString() {
         return dominio + " " + tipo + " " + valor;
+    }
+
+    public int compareTo(Registro o) {
+        return this.dominio.compareToIgnoreCase(o.dominio);
     }
 }
